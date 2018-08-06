@@ -10,6 +10,7 @@ def quicksort(array):
     p_index = len(array) - 1
     pivot = array[p_index]
 
+    #Partition part
     while True:
         if compare_index == p_index:
             break
